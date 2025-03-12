@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0%;
+    background-color: blueviolet;
+}
+
+body{
+    background-color: rgb(221, 190, 250);
+    border: solid black;
+}
