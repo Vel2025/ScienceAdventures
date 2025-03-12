@@ -1,10 +1,29 @@
 *{
-    margin: 0;
+    margin: 5px;
     padding: 0%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 body{
     background-color: rgb(221, 190, 250);
-    border: solid black;
+    
+}
+.Img{
+    width: 100vw;
+}
+.footer{
+    display: flex;
+    background-color: bisque;
+    bottom: 0;
+    width: 100vw;
+    color: white;
+    
+}
+ul{
+    list-style: none;
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
 }
