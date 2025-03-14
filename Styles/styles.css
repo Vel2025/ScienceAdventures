@@ -15,13 +15,15 @@ body {
 
 .navBar ul {
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    
     margin: 0%;
     padding: 0%;
 }
 
 .navBar li {
     position: relative;
+    
 }
 
 .navBar a {
@@ -30,6 +32,7 @@ body {
     font-size: 20px;
     display: block;
     padding: 10px 20px;
+   
 }
 
 #home {
@@ -61,19 +64,31 @@ body {
     text-align: center;
 }
 
-#coverImg{
-    box-shadow: 0 2 px 4px green;
+#coverImg {
+
+    box-shadow: 0 1px 0px rgb(60, 61, 60);
 }
 
 
-.footer {
+
+.projectIdeas{
     display: flex;
-    background-color: rgb(242, 239, 239);
-    bottom: 0;
-    width: 100vw;
-    color: orangered;
-
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
+.header {
+    display: flex;
+    background-color: hsl(186, 86%, 34%);
+    width: 100vw
+}
+
+.nav-item {
+    color: white;
+    background-color: hsl(224, 41%, 95%);
+    border-radius: 5px;
+}
+
 
 ul {
     list-style: none;
