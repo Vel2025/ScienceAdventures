@@ -1,29 +1,87 @@
-*{
+* {
     margin: 5px;
     padding: 0%;
-    /* background-color: blueviolet; */
 }
 
-body{
-    background-color: rgb(221, 190, 250);
-    
+body {
+    background-color: rgb(50, 170, 194);
 }
-.Img{
-    width: 100vw;
+
+.navBar {
+    background-color: floralwhite;
+    padding: 15px;
+    box-shadow: 0 2px 5px #92cbf9;
 }
-.footer{
+
+.navBar ul {
     display: flex;
-    background-color: bisque;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navBar li {
+    position: relative;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 10px 20px;
+}
+
+#home {
+    border-radius: 5px;
+    background-color: #00ffff;
+}
+
+#scienceProject {
+    border-radius: 5px;
+    background-color: black;
+}
+
+#gradeLevel {
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+#login {
+    background-color: purple;
+    border-radius: 5px;
+}
+
+.navBar a:hover {
+    box-shadow: 0 2px 4px rgba(125, 150, 100, 200);
+}
+
+.navBar {
+    width: auto;
+    text-align: center;
+}
+
+#coverImg{
+    box-shadow: 0 2 px 4px green;
+}
+
+
+.footer {
+    display: flex;
+    background-color: rgb(242, 239, 239);
     bottom: 0;
     width: 100vw;
-    color: white;
-    
+    color: orangered;
+
 }
-ul{
+
+ul {
     list-style: none;
-    text-decoration: underline;
+    text-decoration: none;
 }
-.container{
+
+.container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
